@@ -84,7 +84,7 @@ controller.webserver.get('/', (req, res) => {
 });
 
 
-controller.webserver.get('/api/webhook', (req, res) => {
+controller.webserver.get('/api/messages', (req, res) => {
 
     if (req.query['hub.mode'] === 'subscribe') {
         if (req.query['hub.verify_token'] === process.env.FACEBOOK_VERIFY_TOKEN) {
