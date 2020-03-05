@@ -89,7 +89,7 @@ controller.webserver.get('/api/webhook', (req, res) => {
     if (req.query['hub.mode'] === 'subscribe') {
         if (req.query['hub.verify_token'] === process.env.FACEBOOK_VERIFY_TOKEN) {
             const val = req.query['hub.challange'];
-            res.sendRaw(200, val);
+            res.status(200).send(val);
         } else {
             console.log('failed to verify endpoint');
             res.send('OK');
