@@ -1,0 +1,23 @@
+{
+  "name": "chat_bot_test_with_botkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riderflo85/chatBotWithBotKit.git"
+  },
+  "author": "Florent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riderflo85/chatBotWithBotKit/issues"
+  },
+  "homepage": "https://github.com/riderflo85/chatBotWithBotKit#readme",
+  "dependencies": {
+    "generator-botkit": "^4.6.3",
+    "yeoman-generator": "^4.6.0"
+  }
+}
