@@ -6,7 +6,7 @@ branches:
   only:
     - master
 
-before-script:
+before_script:
   - npm install -g npm@latest
   - npm install
 
